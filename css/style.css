@@ -1,0 +1,103 @@
+/*Logo*/
+.logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+
+/*Navigation Buttons Class*/
+.nav-div {
+    background-color: #265073;
+    align-content: flex-end;
+    padding: 3% 3% 3% 3%;
+}
+.a-button {
+    margin-left: auto;
+    margin-right: auto;
+    color: #ECF4D6;
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+    background-color: #2D9596;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+
+
+}
+
+/*Whole Body Div Class*/
+.body-div {
+    * {
+        box-sizing: border-box;
+      }
+     .p-class {
+        font-family: 'Teko' , sans-serif;
+        font-size: 30px;
+        margin-left: 35%;
+        margin-right: 35%;
+     } 
+
+
+      /* Create two equal columns that floats next to each other */
+      .h2-class {
+        font-family: 'Teko' , sans-serif;
+      }
+      .first-column {
+        float: left;
+        width: 100%;
+        padding: 10px;
+        color: rgb(197, 168, 3);
+        height: 200px; /* Should be removed. Only for demonstration */
+
+      }
+      .column {
+        float: left;
+        width: 33.3%;
+        padding: 10px;
+        color: blueviolet;
+        height: 200px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+
+
+}
+
+
+/*All page titles font family and font size and font color and align*/
+
+.page-title-ff {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    color: #ECF4D6;
+    text-align: center;
+}
+
+/*All page title bars*/
+
+#page-title-bar-div {
+    padding: 2% 2% 2% 2%;
+    background-color: #9AD0C2;
+
+}
+
+
+
+
+
